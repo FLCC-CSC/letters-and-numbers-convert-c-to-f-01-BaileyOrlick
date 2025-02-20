@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Bailey Orlick
+# DATE: 2/15/2025
+# BRIEF DESCRIPTION: This will output the conversion, Celcius to Fahrenheit. 
 
 
 
@@ -19,12 +19,11 @@
     
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+C = int(input('Enter a temperature in Celcius: '))
 
+F = C * 9/5 + 32
 
-
-
-
-
+print(f'{C} degrees Celcius is {F} degrees Fahrenheit.')
 
 
 
@@ -76,14 +75,14 @@ Enter a temperature in Celsius: 1
 
 1. What does `float` mean?
 
-
+Float means floating-point number
 
 
 
 2. Why do you think it is important to use `float` as opposed to
    a different type of variable type?
 
-
+The solution to the equation should be an exact number, including a decimal, as opposed to an integer, which only outputs the whole number, without the decimal.
 
 
 
