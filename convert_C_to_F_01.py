@@ -19,11 +19,13 @@
     
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-C = int(input('Enter a temperature in Celsius: '))
+Celsius = int(input('Enter a temperature in Celsius: '))
 
-F = C * 9/5 + 32
+float = float(Celsius)
 
-print(f'{C} degrees Celsius is {F} degrees Fahrenheit.')
+Fahrenheight = Celsius * 9/5 + 32
+
+print(f'{float} degrees Celsius is {Fahrenheight} degrees Fahrenheit.')
 
 
 
