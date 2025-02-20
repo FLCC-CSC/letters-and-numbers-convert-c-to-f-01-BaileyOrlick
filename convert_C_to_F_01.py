@@ -25,6 +25,7 @@ float = float(Celsius)
 
 Fahrenheight = Celsius * 9/5 + 32
 
+print()
 print(f'{float} degrees Celsius is {Fahrenheight} degrees Fahrenheit.')
 
 
